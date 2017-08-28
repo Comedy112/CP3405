@@ -40,12 +40,13 @@ nav a {
  
 nav a:hover {
   background-color: #f1693c;
+  cursor: pointer;
 }
  
 nav a.active {
   background-color: #fff;
   color: #444;
-  cursor: default;
+  cursor: pointer;
 }
 
 article {
@@ -56,35 +57,256 @@ article {
 }
 
 #whitetxt{
-    font-size: 1em;
+    font-size: 1.5em;
     color: #fff;
 }
 
-.btn ul {
-  list-style: none;
-  background-color: #ac00e6;
+#blacktxt{
+    font-size: 1.5em;
+    color: #000000;
+    padding-top: 30px;
+    margin-bottom: -55px;
+}
+
+#teacherdashboardblacktxt{
+    font-size: 1.5em;
+    color: #000000;
+    padding-top: 30px;
+    margin-bottom: -55px;
+    text-align: center;
+}
+
+#manageclassblacktxt{
+    font-size: 1.5em;
+    color: #000000;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#login {
+   background: #FFC url(loginbutton.jpg) repeat-x;
+   width: 374px;
+   height: 93px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
+
+#goback  {
+   background: #FCC url(backbutton.jpg) repeat-x;
+   width: 240px;
+   height: 76px;
+   float: left;
+   margin-left: -200px;
+   margin-top: 50px;
+   -webkit-border-radius: 35px;
+   -moz-border-radius: 35px;
+   border-radius: 35px;
+}
+
+#goback:hover  {
+   cursor: pointer;
+}
+
+#zoomin  {
+   background: #FCC url(settingszoomin.png) repeat-x;
+   width: 32px;
+   height: 32px;
+   float: left;
+   margin-left: 200px;
+   margin-top: -54px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
+
+#zoomin:hover  {
+  cursor: pointer;
+}
+
+#zoomout  {
+   background: #FCC url(settingszoomout.png) repeat-x;
+   width: 32px;
+   height: 32px;
+   float: left;
+   margin-left: 250px;
+   margin-top: -54px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
+
+#zoomout:hover  {
+  cursor: pointer;
+}
+
+#readtextaloudtoggleButton  {
+   background: #FCC url(toggleOFF.png) repeat-x;
+   width: 94px;
+   height: 33px;
+   float: left;
+   margin-left: 250px;
+   margin-top: -54px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
+
+#readtextaloudtoggleButton:hover  {
+  cursor: pointer;
+}
+
+#invertcoloursmodetoggleButton  {
+   background: #FCC url(toggleOFF.png) repeat-x;
+   width: 94px;
+   height: 33px;
+   float: left;
+   margin-left: 290px;
+   margin-top: -54px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+
+}
+
+#invertcoloursmodetoggleButton:hover  {
+  cursor: pointer;
+}
+
+#login:hover {
+   background: #FCC url(loginbuttonhover.jpg) repeat-x;
+   width: 374px;
+   height: 93px;
+   cursor: pointer;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
+
+.goanswerstostudentquestions li {
+  background-color: #00CED1;
   text-align: center;
+  width: 570px;
+  font-size: 1.4em;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-colour: #fff;
+  font-family: 'MuseoSans-500', 'Muli', 'Lucida Grande', Arial, sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-colour: #00CED1;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.gomanageclasslist li {
+  background-color: #00CED1;
+  text-align: center;
+  width: 570px;
+  font-size: 1.4em;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-colour: #fff;
+  font-family: 'MuseoSans-500', 'Muli', 'Lucida Grande', Arial, sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-colour: #00CED1;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.goanswerstostudentquestions li:hover {
+   cursor: pointer;
+   background-color: #f1693c;
+}
+
+.gomanageclasslist li:hover {
+   cursor: pointer;
+   background-color: #f1693c;
+}
+
+#goanswerstostudentquestions:hover  {
+    cursor:pointer;
+}
+
+#gomanageclasslist:hover  {
+    cursor:pointer;
+}
+
+
+.indexIntro {
+  font-size: 1.5em;
+}
+
+.btn1 ul {
+  list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.btn li {
-    width: 120px;
+.btn1 li {
+    width: 374px;
     border-bottom: none;
-    height: 50px;
+    height: 93px;
     line-height: 50px;
     font-size: 1.4em;
   }
  
-.btn a {
+.btn1 a {
   text-decoration: none;
   color: #fff;
   display: block;
   transition: .3s background-color;
 }
  
-.btn a:hover {
-  background-color: #f1693c;
+.btn1 a:hover {
+  content: url('teacherloginbuttonhover.jpg');
+  width: 374px;
+  height: 93px;
+  cursor: pointer;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.btn2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.btn2 li {
+    width: 374px;
+    border-bottom: none;
+    height: 93px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+.btn2 a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.btn2 a:hover {
+  content: url('studentloginbuttonhover.jpg');
+  width: 374px;
+  height: 93px;
+  cursor: pointer;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
 }
 
 footer {

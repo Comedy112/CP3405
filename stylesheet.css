@@ -85,24 +85,19 @@ article {
 }
 
 #login {
-   background: #FFC url(loginbutton.jpg) repeat-x;
-   width: 374px;
-   height: 93px;
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
+   background: #FFC url(loginbutton.png) repeat-x;
+   width: 273px;
+   height: 53px;
+
 }
 
 #goback  {
-   background: #FCC url(backbutton.jpg) repeat-x;
-   width: 240px;
-   height: 76px;
+   background: url(backbutton.jpg) repeat-x;
+   width: 105px;
+   height: 101px;
    float: left;
    margin-left: -200px;
    margin-top: 50px;
-   -webkit-border-radius: 35px;
-   -moz-border-radius: 35px;
-   border-radius: 35px;
 }
 
 #goback:hover  {
@@ -175,63 +170,25 @@ article {
 }
 
 #login:hover {
-   background: #FCC url(loginbuttonhover.jpg) repeat-x;
-   width: 374px;
-   height: 93px;
+   width: 273px;
+   height: 53px;
    cursor: pointer;
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
 }
 
 .goanswerstostudentquestions li {
-  background-color: #00CED1;
-  text-align: center;
-  width: 570px;
-  font-size: 1.4em;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: bold;
-  font-colour: #fff;
-  font-family: 'MuseoSans-500', 'Muli', 'Lucida Grande', Arial, sans-serif;
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
-  border-colour: #00CED1;
-  border-style: solid;
-  border-width: 3px;
+
 }
 
 .gomanageclasslist li {
-  background-color: #00CED1;
-  text-align: center;
-  width: 570px;
-  font-size: 1.4em;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: bold;
-  font-colour: #fff;
-  font-family: 'MuseoSans-500', 'Muli', 'Lucida Grande', Arial, sans-serif;
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
-  border-colour: #00CED1;
-  border-style: solid;
-  border-width: 3px;
+
 }
 
 .goanswerstostudentquestions li:hover {
    cursor: pointer;
-   background-color: #f1693c;
 }
 
 .gomanageclasslist li:hover {
    cursor: pointer;
-   background-color: #f1693c;
 }
 
 #goanswerstostudentquestions:hover  {
@@ -269,13 +226,9 @@ article {
 }
  
 .btn1 a:hover {
-  content: url('teacherloginbuttonhover.jpg');
-  width: 374px;
-  height: 93px;
+  width: 356px;
+  height: 53px;
   cursor: pointer;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
 }
 
 .btn2 ul {
@@ -285,9 +238,9 @@ article {
 }
 
 .btn2 li {
-    width: 374px;
+    width: 356px;
     border-bottom: none;
-    height: 93px;
+    height: 53px;
     line-height: 50px;
     font-size: 1.4em;
   }
@@ -300,13 +253,10 @@ article {
 }
  
 .btn2 a:hover {
-  content: url('studentloginbuttonhover.jpg');
-  width: 374px;
-  height: 93px;
+
+  width: 356px;
+  height: 53px;
   cursor: pointer;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
 }
 
 footer {

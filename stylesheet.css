@@ -296,9 +296,99 @@ nav li {
     font-size: 1.4em;
   }
  
- li {
+#variabletypesanddeclarationsquiz li {
     display: inline-block;
     //margin-right: -4px;
   }
- 
+
+#variabletypesanddeclarationsquiz nav ul {
+  list-style: none;
+  background-color: #62C3CA;
+  text-align: ;
+  padding: 0;
+  margin-left: 75px;
+  border: solid;
 }
+
+#variabletypesanddeclarationsquiz nav li {
+  font-family: 'MuseoSans-500', 'Muli', 'Lucida Grande', Arial, sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  width: 396px;
+  border-bottom: 1px solid #888;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.tryagain ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.tryagain li {
+    width: 303px;
+    border-bottom: none;
+    height: 40px;
+    line-height: 50px;
+    font-size: 1.4em;
+
+  }
+ 
+.tryagain a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.tryagain a:hover {
+  width: 303px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.chooseanewmodule ul {
+  list-style: none;
+  padding: 0;
+
+}
+
+.chooseanewmodule li {
+    width: 302px;
+    border-bottom: none;
+    height: 40px;
+    line-height: 50px;
+    font-size: 1.4em;
+
+  }
+ 
+.chooseanewmodule a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.chooseanewmodule a:hover {
+  width: 302px;
+  height: 40px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -76,7 +76,7 @@ article {
     text-align: center;
 }
 
-#manageclassblacktxt{
+#manageclassblacktxt1{
     font-size: 1.5em;
     color: #000000;
     padding-top: 30px;
@@ -176,11 +176,11 @@ article {
 }
 
 .goanswerstostudentquestions li {
-
+list-style: none;
 }
 
 .gomanageclasslist li {
-
+list-style: none;
 }
 
 .goanswerstostudentquestions li:hover {
@@ -199,6 +199,16 @@ article {
     cursor:pointer;
 }
 
+#sendemail {
+width: 318px;
+height: 53px;
+}
+
+#sendemail:hover {
+width: 318px;
+height: 53px;
+cursor: pointer;
+}
 
 .indexIntro {
   font-size: 1.5em;
@@ -377,6 +387,174 @@ nav li {
   height: 40px;
   cursor: pointer;
 }
+
+.studentlist {
+    font-size: 0.7em;
+    color: #000000;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    float: left;
+}
+
+#studentmanage {
+border-style: solid;
+float: left;
+}
+
+#studentname {
+float: left;
+margin-top: 25px;
+margin-left: 60px;
+}
+
+
+#emailparentbutton {
+float: left;
+margin-top: -5px;
+margin-left: 0px;
+}
+
+#emailparentbutton: hover {
+cursor: pointer;
+}
+
+#removesinglestudentbutton {
+float: left;
+margin-top: -10px;
+}
+
+#removesinglestudentbutton: hover {
+cursor: pointer;
+}
+
+#contactparent{
+float: left;
+margin-left: 90px;
+margin-right: 60px;
+}
+
+#advancelevel {
+float: left;
+margin-left: 60px;
+margin-right: 60px;
+width: 200px;
+}
+
+#increasebutton {
+margin-top: -46.5px;
+margin-left: 80px;
+}
+
+#increasebutton: hover {
+cursor: hover;
+}
+
+#decreasebutton: hover {
+cursor: hover;
+}
+
+#decreasebutton {
+float: left;
+margin-right: 10px;
+margin-top: -10px;
+}
+
+#removesinglestudent {
+float: left;
+margin-left: 0px;
+margin-right: 60px;
+}
+
+#manageclasslisttitle {
+    font-size: 1.0em;
+    color: #000000;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    text-align: centre;
+}
+
+.studentlist ul {
+list-style: none;
+}
+
+#addclasslistbutton {
+float: left;
+margin-right: 50px;
+margin-top: 40px;
+}
+
+#addclasslistbutton: hover {
+cursor: pointer;
+}
+
+#addsinglestudentbutton {
+float: left;
+margin-right: 50px;
+margin-top: 40px;
+}
+
+#addsinglestudentbutton: hover {
+cursor: pointer;
+}
+
+#removeallstudentsbutton {
+float: left;
+margin-top: 40px;
+}
+
+#removeallstudentsbutton: hover {
+cursor: pointer;
+}
+
+#studentdashboardtxt {
+    font-size: 1.0em;
+    color: #000000;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    text-align: centre;
+}
+
+#learningbasicsyntaxbutton {
+margin-top: 100px;
+}
+
+#learningbasicsyntaxbutton: hover {
+cursor: pointer;
+}
+
+#variabletypesanddeclarationsbutton {
+margin-top: 40px;
+}
+
+#variabletypesanddeclarationsbutton: hover {
+cursor: pointer;
+}
+
+#creatingafunctionbutton {
+margin-top: 40px;
+}
+
+#creatingafunctionbutton: hover {
+cursor: pointer;
+}
+
+#ifthenelseconditionalstatementsbutton {
+margin-top: 40px;
+}
+
+#ifthenelseconditionalstatementsbutton: hover {
+cursor: pointer;
+}
+
+#creatingyourfirstprogrambutton {
+margin-top: 40px;
+}
+
+#creatingyourfirstprogrambutton: hover {
+cursor: pointer;
+}
+
 
 
 

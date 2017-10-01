@@ -68,6 +68,24 @@ article {
     margin-bottom: -55px;
 }
 
+.emailpagetitle{
+    text-align: center;
+}
+
+.emailcontents{
+text-align: left;
+font-style: none;
+border-style: solid;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+}
+
+.emailmessage{
+border-style: solid;
+padding-left: 15px;
+}
+
 #teacherdashboardblacktxt{
     font-size: 1.5em;
     color: #000000;
@@ -88,7 +106,12 @@ article {
    background: #FFC url(loginbutton.png) repeat-x;
    width: 273px;
    height: 53px;
+}
 
+#sendemail {
+   background: #FFC url(sendemailbutton.png) repeat-x;
+   width: 318px;
+   height: 53px;
 }
 
 #goback  {

@@ -19,33 +19,36 @@
 </nav>
 
 <article>
-
+    <div class="goback">
+        <button id="goback" type="image" onclick="history.go(-1)" src="backbutton.jpg" alt="Go Back">
+    </div>
+<br><br><br><br>
 <form method="post" action="">
     <label>First Name</label>
     
     <input type="text" name="first_name"/>
 
 
-    <br>   
+    <br><br>
  
     
     <label>Last Name</label>
     
     <input type="text" name="last_name"/>
 
-    <br>
+    <br><br>
 
     <label>Student Email</label>
     
     <input type="text" name="stu_email"/>
 
-    <br>
+    <br><br>
 
     <label>Parent/Guardian Email</label>
     
     <input type="text" name="par_email"/>
 
-    <br>
+    <br><br>
 
 <input type="submit" value="Add Student">
 </form>

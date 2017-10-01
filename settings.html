@@ -20,7 +20,7 @@
 
 <article>
     <div class="goback">
-        <button id="goback" type="image" src="backbutton.jpg" alt="Go Back">
+        <button id="goback" type="image" onclick="history.go(-1)" src="backbutton.jpg" alt="Go Back">
     </div>
     <br><br><br><br><br><br><br><br>
     <div id="blacktxt"> 
@@ -37,19 +37,49 @@
         <p>Read Text Aloud: <p>
 
     <div class="readtextaloud">
-        <button id="readtextaloudtoggleButton" type="image" src="toggleOFF.png" alt="Toggle Read Text Aloud">
+        <img id="readtextaloudtoggleButton" type="image" onclick="readTextAloud()" src="toggleOFF.png" alt="Toggle Read Text Aloud">
     </div>
 
+        <script>
+            var image1 =  document.getElementById("readtextaloudtoggleButton");
+		
+            function readTextAloud()
+            {
+                if (image1.getAttribute('src') == "toggleOFF.png")
+                {
+                    image1.src = "toggleON.png";
+                }
+                else
+                {
+                    image1.src = "toggleOFF.png";
+                }
+            }         
+           
+        </script>
 
     <br> <br> <br> <br>
 
         <p>Invert Colours Mode: <p>
 
      <div class="invertcoloursmode">
-        <button id="invertcoloursmodetoggleButton" type="image" src="toggleOFF.png" alt="Toggle Invert Colours Mode">
+        <img id="invertcoloursmodetoggleButton" type="image" onclick="invertColours()" src="toggleOFF.png" alt="Toggle Invert Colours Mode">
     </div>
 
-  
+         <script>
+            var image2 =  document.getElementById("invertcoloursmodetoggleButton");
+
+            function invertColours()
+            {
+                if (image2.getAttribute('src') == "toggleOFF.png")
+                {
+                    image2.src = "toggleON.png";
+                }
+                else
+                {
+                    image2.src = "toggleOFF.png";
+                }
+            }
+        </script> 
     </div>
 
 </article>

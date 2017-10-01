@@ -19,17 +19,48 @@
 </nav>
 
 <article>
+
+
     <div class="goback">
-        <button id="goback" type="image" src="backbutton.jpg" alt="Go Back">
+        <button id="goback" type="image" onclick="history.go(-1)" src="backbutton.jpg" alt="Go Back">
     </div>
-    <br><br><br><br><br><br><br><br>
-    <div id="blacktxt"> 
- 
+    
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<div id="sendemail"><img border="0" alt="Send Email" src="sendemailbutton.png" width="318" height="53">
+
+<div id="blacktxt"> 
+
+<div class="emailpagetitle"><p><h1>E-mail Parent / Guardian</h1></p></div>
+
+<div class="emailcontents">
+     <form action="studentdashboard.html">
+        <h3>Student: {Student Name}</h3>
+        <br>
+        To: {autofill parent email from database}
+        <br>
+        CC:
+        <input type="cc" name="cc" value="">
+	<br>
+        Subject:
+        <input type="subject" name="subject" value="">
+	<br><br>
+
+<div class="emailmessage"> 
+
+<p>Dear parent / guardian,<p>
+<p>{Student name} is on {Student level} of {module} using Code Correct.<p>
+<p>The average student level for the class is {average level}.<p>
+<p>Perhaps {student name} needs to work on his coding more at home.<p>
+<p>If you have any queries, please contact me via my e-mail.<p>
+<br>
+<p>Thanks,<p>
+<p>{Teacher Name}<p>
 </div>
+<br><br>
+        <button id="sendemail" type="image" src="sendemailbutton.png" alt="Submit Form" width="318" height="53">
+    </form> 
 
+
+</div>
 </div>
 
 </article>

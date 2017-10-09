@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 <body class="settings">
 <header>
@@ -20,18 +21,41 @@
 
 <article>
     <div class="goback">
-        <button id="goback" type="image" onclick="history.go(-1)" src="backbutton.jpg" alt="Go Back">
+        <img id="goback" type="image" onclick="history.go(-1)" src="backbutton.jpg" alt="Go Back">
     </div>
     <br><br><br><br><br><br><br><br>
     <div id="blacktxt"> 
         <p>Zoom Text: <p>
 
     <div class="zoomin">
-        <button id="zoomin" type="image" src="settingszoomin.png" alt="Zoom In">
+        <img id="zoomin" type="image" src="settingszoomin.png" alt="Zoom In">
     </div>
+
     <div class="zoomout">
-        <button id="zoomout" type="image" src="settingszoomout.png" alt="Zoom Out">
+        <img id="zoomout" type="image" onclick="" src="settingszoomout.png" alt="Zoom Out">
     </div>
+
+<script>
+$('#zoomin').click(function() {
+   updateZoom(0.1);
+
+
+});
+
+$('#zoomout').click(function() {
+   updateZoom(-0.1);
+});
+
+
+zoomLevel = 1;
+
+var updateZoom = function(zoom) {
+   zoomLevel += zoom;
+   $('body').css({ zoom: zoomLevel, '-moz-transform': 'scale(' + zoomLevel + ')' });
+  
+}
+</script>
+
     <br> <br> <br> <br>
 
         <p>Read Text Aloud: <p>

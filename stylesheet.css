@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #F6F7F8;
+
 }
 
 body.teacher {
@@ -128,7 +129,6 @@ padding-left: 15px;
 }
 
 #zoomin  {
-   background: #FCC url(settingszoomin.png) repeat-x;
    width: 32px;
    height: 32px;
    float: left;
@@ -144,7 +144,7 @@ padding-left: 15px;
 }
 
 #zoomout  {
-   background: #FCC url(settingszoomout.png) repeat-x;
+
    width: 32px;
    height: 32px;
    float: left;
@@ -157,6 +157,11 @@ padding-left: 15px;
 
 #zoomout:hover  {
   cursor: pointer;
+}
+
+#defaultzoom {
+float; left
+margin-left: 60px;
 }
 
 #readtextaloudtoggleButton  {
